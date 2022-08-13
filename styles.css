@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #a2ad72;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 100px;
+  height: 72px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #070000;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.todojs {
+  background: linear-gradient(90deg, #9b9803 0%, #dbf302 179.25%);
+}
+
+.todoexpress {
+  background: linear-gradient(90deg, #036614 0%, #0ac404 100%);
+}
+
+.todoreact {
+  background: linear-gradient(90deg, #0796e9 0%, #312ee9 100%);
+}
+
+.todots {
+  background: linear-gradient(90deg, #07b0ce 0%, #014a61 179.25%);
+}
+
+.todoangular {
+  background: linear-gradient(90deg, #f50438 0%, #50020c 100%);
+}
+
+.todovue {
+  background: linear-gradient(90deg, #013818 0%, #04ac58 100%);
+}
+
+.hold {
+  border: 9px solid #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #22b804;
+}
